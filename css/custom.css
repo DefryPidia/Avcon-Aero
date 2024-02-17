@@ -1,6 +1,6 @@
 /********** common setting **********/
 h2 {
-  font-size: 2.8rem !important;
+  font-size: 36px !important;
   font-weight: 700;
 }
 
@@ -74,7 +74,7 @@ button {
 }
 
 #banner header img {
-  max-width: 200px;
+  max-width: 400px;
 }
 
 /********** feature (skew background) **********/
@@ -84,12 +84,14 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #ffffff 55%, #00ffad 0);
+  background-image: url(img/banner-aero.jpg);
 }
 
 #feature-last {
-  background: #00ffad;
+  background: #86d8f879 0;
 }
+
+
 
 /********** price table **********/
 #price-table {
@@ -116,13 +118,13 @@ button {
 }
 
 #contact form {
-  color: #00ffad;
+  color: #ffffff;
 }
 
 #contact form input,
 #contact form textarea {
   background: transparent;
-  border: 1px solid #00ffad;
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
