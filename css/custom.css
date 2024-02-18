@@ -170,4 +170,10 @@ button {
   #avcon-main-icon {
     width: 250px;
   }
+
+  body {
+    max-width: 100%;
+    /* or */
+    width: 100%;
+  }
 }
