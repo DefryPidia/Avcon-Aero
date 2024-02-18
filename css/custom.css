@@ -171,9 +171,17 @@ button {
     width: 250px;
   }
 
-  body {
+  /* body {
     max-width: 100%;
-    /* or */
     width: 100%;
+  } */
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
   }
 }
