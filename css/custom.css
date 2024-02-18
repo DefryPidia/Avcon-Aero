@@ -91,8 +91,6 @@ button {
   background: #86d8f879 0;
 }
 
-
-
 /********** price table **********/
 #price-table {
   padding-top: 4rem !important;
@@ -160,5 +158,16 @@ button {
 @media (max-width: 575px) {
   #banner h1 {
     font-size: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #avcon-icon {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  #avcon-main-icon {
+    width: 250px;
   }
 }
